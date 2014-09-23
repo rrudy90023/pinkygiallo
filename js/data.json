@@ -1,0 +1,78 @@
+[
+  {
+    "movie":"Horrors of Malformed Men",
+    "genre":"Pinky",
+    "year":"1969",
+    "video":"http://youtu.be/jxZ6oZWO9pQ",
+    "image": "img/pinky1.jpg"
+  },
+
+
+  {
+    "movie":"Blood and Black Lace",
+    "genre":"Giallo",
+    "year":"1964",
+    "video":"http://youtu.be/3wisiw-RmZc?t=14s",
+    "image": "img/giallo1.jpg"
+  },
+
+
+
+    {
+    "movie":"Terrifying Girls' High School: Lynch Law Classroom",
+    "genre":"Pinky",
+    "year":"1973",
+    "video":"http://youtu.be/gO9Wvqr30Xg",
+    "image": "img/pinky2.jpg"
+  },
+
+
+
+    {
+    "movie":"The Killer Must Kill Again",
+    "genre":"Giallo",
+    "year":"1975",
+    "video":"http://youtu.be/clTP-K_WNsc",
+    "image": "img/giallo2.jpg"
+  },
+
+  {
+    "movie":"Female Yakuza Tale",
+    "genre":"Pinky",
+    "year":"1973",
+    "video":"http://youtu.be/NSu7Vxu2gEA",
+    "image": "img/pinky3.jpg"
+  },
+
+
+  {
+    "movie":"The Cat o Nine Tails",
+    "genre":"Giallo",
+    "year":"1971",
+    "video":"http://youtu.be/BmrqvVBf210",
+    "image": "img/giallo3.jpg"
+  },
+
+
+
+    {
+    "movie":"Delinquent Girl Boss: Worthless to Confess",
+    "genre":"Pinky",
+    "year":"1971",
+    "video":"http://youtu.be/_8_TxzBum-E",
+    "image": "img/pinky4.jpg"
+  },
+
+
+
+    {
+    "movie":"Torso",
+    "genre":"Giallo",
+    "year":"1973",
+    "video":"http://youtu.be/AVxoiIZ8l0o",
+    "image": "img/giallo4.jpg"
+  }
+
+
+
+]

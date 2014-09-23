@@ -1,0 +1,183 @@
+html, body, #carousel, #carousel ul, #carousel li {
+min-height: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+position: relative;
+font-family: 'Cabin', sans-serif;
+}
+
+#carousel {
+background: silver;
+overflow: hidden;
+width: 100%;
+-webkit-backface-visibility: hidden;
+-webkit-transform: translate3d(0,0,0) scale3d(1,1,1);
+-webkit-transform-style: preserve-3d;
+}
+
+#carousel ul.animate {
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-o-transition: all .3s;
+transition: all .3s;
+}
+
+#carousel ul {
+-webkit-transform: translate3d(0%,0,0) scale3d(1,1,1);
+-moz-transform: translate3d(0%,0,0) scale3d(1,1,1);
+-ms-transform: translate3d(0%,0,0) scale3d(1,1,1);
+-o-transform: translate3d(0%,0,0) scale3d(1,1,1);
+transform: translate3d(0%,0,0) scale3d(1,1,1);
+overflow: hidden;
+-webkit-backface-visibility: hidden;
+-webkit-transform-style: preserve-3d;
+}
+
+#carousel ul {
+-webkit-box-shadow: 0 0 20px rgba(0,0,0,.2);
+box-shadow: 0 0 20px rgba(0,0,0,.2);
+position: relative;
+}
+
+#carousel li {
+float: left;
+overflow: hidden;
+-webkit-transform-style: preserve-3d;
+-webkit-transform: translate3d(0,0,0);
+
+}
+
+
+#carousel img{
+
+
+background-color: white;
+bottom: 0;
+display: block;
+/*height: 672px;*/
+left: 0;
+margin: auto;
+position: absolute;
+right: 0;
+top: 0;
+max-width: 100%;
+
+
+
+}
+
+.watch{
+background: url('../img/film.png') no-repeat;
+width: 256px;
+height: 160px;
+display: none;
+position: absolute;
+top: 70%;
+z-index: 9999;
+left: 0;
+}
+
+h2 {
+color: #000;
+font-size: 60px;
+text-align: left;
+position: absolute;
+top: 20%;
+left: 0;
+width: 100%;
+height: 180px;
+/*text-shadow: -1px -1px 0 rgba(0,0,0,.2);*/
+z-index: 9999;
+display: none;
+}
+
+/*#carousel li.pane1 { background: #FF7272; }
+#carousel li.pane2 { background: #FFDC59; }
+#carousel li.pane3 { background: #FF7272; }
+#carousel li.pane4 { background: #FFDC59; }
+#carousel li.pane5 { background: #FF7272; }
+#carousel li.pane6 { background: #FFDC59; }
+#carousel li.pane7 { background: #FF7272; }
+#carousel li.pane8 { background: #FFDC59; }*/
+
+.poster{
+width: 448px;
+height: 672px; 
+display: block;
+background-color: white;
+top: 0;
+bottom: 0;
+margin-top: auto;
+margin-bottom: auto;
+left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+position: absolute;
+}
+
+
+
+
+#cover{
+background:url('../img/closer.png') no-repeat;
+background-position: right top;
+width: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+top: 0;
+left: 0;
+position: absolute;
+display: none;
+z-index: 9998;
+}
+
+#preloader {
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background-color:#FF7272; /* change if the mask should have another color then white */
+z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+width:400px;
+height:406px;
+position:absolute;
+left:50%; /* centers the loading animation horizontally one the screen */
+top:50%; /* centers the loading animation vertically one the screen */
+background-image:url(../img/title.png); /* path to your loading animation */
+background-repeat:no-repeat;
+background-position:center;
+margin:-200px 0 0 -200px; /* is width and height divided by two */
+z-index: 99;
+}
+
+
+#bpink{
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background-color:#FF7272; /* change if the mask should have another color then white */
+z-index:9; /* makes sure it stays on top */
+
+}
+
+
+#byell{
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 50%;
+background-color:#FFDC59; /* change if the mask should have another color then white */
+z-index:9; /* makes sure it stays on top */
+
+	
+}
